@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.bbyx</groupId>
+    <artifactId>bbyx_parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>bgy_bbyx_controller</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+    <module>bgy_bbyx_mobile_interface</module>
+    <module>bgy_bbyx_pc_interface</module>
+  </modules>
+  <dependencies>
+  	 <dependency>
+            <groupId>com.bbyx</groupId>
+            <artifactId>bgy_bbyx_common</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.bbyx</groupId>
+            <artifactId>bgy_bbyx_service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.bbyx</groupId>
+            <artifactId>bgy_bbyx_api</artifactId>
+        </dependency>
+        
+        <!-- servlet -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+        </dependency>
+
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+        </dependency>
+  </dependencies>
+  
+  
+  
+  
+  
+</project>
