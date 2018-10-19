@@ -3,9 +3,9 @@ spring:
     name: ecard
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://rm-2zep50v48in2m87p2.mysql.rds.aliyuncs.com:3306/PointsShop?useUnicode=true&characterEncoding=utf-8&useSSL=true&allowMultiQueries=true 
-    username: juran
-    password: Juran521
+    url: jdbc:mysql://47.101.48.78:3306/bbyx?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: mysql
     
 mybatis:
   mapper-locations: classpath:mapper/*.xml
