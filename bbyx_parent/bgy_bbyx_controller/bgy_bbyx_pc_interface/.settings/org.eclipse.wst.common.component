@@ -10,7 +10,13 @@
         <dependent-module archiveName="bgy_bbyx_service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bgy_bbyx_service/bgy_bbyx_service">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="bgy_bbyx_dao-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bgy_bbyx_dao/bgy_bbyx_dao">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="bgy_bbyx_api-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bgy_bbyx_api/bgy_bbyx_api">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bgy_bbyx_model-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/bgy_bbyx_model/bgy_bbyx_model">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="bgy_bbyx_pc_interface"/>

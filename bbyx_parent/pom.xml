@@ -10,12 +10,14 @@
     <module>bgy_bbyx_common</module>
     <module>bgy_bbyx_service</module>
     <module>bgy_bbyx_controller</module>
+    <module>bgy_bbyx_model</module>
+    <module>bgy_bbyx_dao</module>
   </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.6.RELEASE</version>
-		<relativePath />
+		<relativePath/>
 	</parent>
 	 <dependencyManagement>
   	<dependencies>
