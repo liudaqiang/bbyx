@@ -6,8 +6,23 @@
 		<result column="password" property="password" jdbcType="VARCHAR" />
 	</resultMap>
 	
-	<select id="getAllUser"  resultMap="userMap">
+	<select id="findAll"  resultMap="userMap">
 		select * from user
 	</select>
 
+	<select id="findPage"  resultMap="userMap">
+		select * from user
+	</select>
+	
+	<select id="findPageCount"  resultType="java.lang.Integer">
+		select count(*) from user
+	</select>
+	
+	<insert id="insert">
+		insert into user (user_name,password) values ("12","12")
+	</insert>
+	
+	<update id="update">
+		update user set password = '13' where user_name = '12'
+	</update>
 </mapper>
