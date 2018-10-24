@@ -1,4 +1,4 @@
-package org.bgy_bbyx_model;
+package org.bgy_bbyx_model.page;
 
 import java.io.Serializable;
 

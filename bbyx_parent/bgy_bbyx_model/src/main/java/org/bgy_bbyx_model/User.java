@@ -2,6 +2,8 @@ package org.bgy_bbyx_model;
 
 import java.io.Serializable;
 
+import org.bgy_bbyx_model.page.PageBean;
+
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 

@@ -3,8 +3,8 @@ package org.bgy_bbyx_service.service_impl;
 import java.util.List;
 
 import org.bgy_bbyx_dao.UserDao;
-import org.bgy_bbyx_model.PageBean;
 import org.bgy_bbyx_model.User;
+import org.bgy_bbyx_model.page.PageBean;
 import org.bgy_bbyx_service.service_interface.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

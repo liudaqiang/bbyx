@@ -1,14 +1,21 @@
 package org.bgy_bbyx_common.exception;
 
-public class MyException extends RuntimeException{
-	public MyException(String code, String msg) {
+public class MyException extends Exception{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	public MyException(String code,String errorType, String msg) {
 		this.code = code;
 		this.msg = msg;
+		this.errorType = errorType;
 	}
 
 	private String code;
 	private String msg;
-
+	private String errorType;
+	
 	public String getCode() {
 		return code;
 	}
@@ -23,6 +30,14 @@ public class MyException extends RuntimeException{
 
 	public void setMsg(String msg) {
 		this.msg = msg;
+	}
+
+	public String getErrorType() {
+		return errorType;
+	}
+
+	public void setErrorType(String errorType) {
+		this.errorType = errorType;
 	}
 
 }
